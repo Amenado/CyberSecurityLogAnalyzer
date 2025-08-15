@@ -1,0 +1,9 @@
+C:/Users/BoraErki/Desktop/CyberSecurityLogAnalyzer/data/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv filter=lfs diff=lfs merge=lfs -text
+C:/Users/BoraErki/Desktop/CyberSecurityLogAnalyzer/data/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv filter=lfs diff=lfs merge=lfs -text
+C:/Users/BoraErki/Desktop/CyberSecurityLogAnalyzer/data/Friday-WorkingHours-Morning.pcap_ISCX.csv filter=lfs diff=lfs merge=lfs -text
+C:/Users/BoraErki/Desktop/CyberSecurityLogAnalyzer/data/Monday-WorkingHours.pcap_ISCX.csv filter=lfs diff=lfs merge=lfs -text
+C:/Users/BoraErki/Desktop/CyberSecurityLogAnalyzer/data/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv filter=lfs diff=lfs merge=lfs -text
+C:/Users/BoraErki/Desktop/CyberSecurityLogAnalyzer/data/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv filter=lfs diff=lfs merge=lfs -text
+C:/Users/BoraErki/Desktop/CyberSecurityLogAnalyzer/data/Tuesday-WorkingHours.pcap_ISCX.csv filter=lfs diff=lfs merge=lfs -text
+C:/Users/BoraErki/Desktop/CyberSecurityLogAnalyzer/data/Wednesday-workingHours.pcap_ISCX.csv filter=lfs diff=lfs merge=lfs -text
+C:/Users/BoraErki/Desktop/CyberSecurityLogAnalyzer/MLNetRiskPredictor/data/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv filter=lfs diff=lfs merge=lfs -text
