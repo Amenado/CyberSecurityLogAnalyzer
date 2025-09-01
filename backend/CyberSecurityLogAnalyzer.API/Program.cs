@@ -5,19 +5,17 @@ using CyberSecurityLogAnalyzer.API.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Risk score servisini ekle
 builder.Services.AddSingleton<RiskScoreService>();
+builder.Services.AddSingleton<RiskPredictionService>();
 
-// DbContext ekleme
+
 builder.Services.AddDbContext<LogDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// CORS ekle (frontend farklı porttan erişebilsin)
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
@@ -30,7 +28,6 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -38,8 +35,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors(); // CORS'u uygula
+app.UseCors(); 
 app.UseAuthorization();
-app.MapControllers(); // Controller endpointlerini uygula
+app.MapControllers();
 
 app.Run();

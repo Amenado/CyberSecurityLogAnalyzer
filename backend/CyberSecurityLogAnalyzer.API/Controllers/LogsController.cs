@@ -15,7 +15,6 @@ namespace CyberSecurityLogAnalyzer.API.Controllers
             _context = context;
         }
 
-        // Tüm logları çek
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -23,7 +22,6 @@ namespace CyberSecurityLogAnalyzer.API.Controllers
             return Ok(logs);
         }
 
-        // Random log ekle
         [HttpPost("random")]
         public IActionResult AddRandom()
         {

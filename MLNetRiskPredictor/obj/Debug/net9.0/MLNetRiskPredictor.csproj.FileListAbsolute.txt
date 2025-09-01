@@ -38,3 +38,16 @@ C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\obj\Debug\
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\obj\Debug\net9.0\MLNetRiskPredictor.pdb
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\obj\Debug\net9.0\MLNetRiskPredictor.genruntimeconfig.cache
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\obj\Debug\net9.0\ref\MLNetRiskPredictor.dll
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\obj\Debug\net9.0\MLNetRiskPredictor.sourcelink.json
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\bin\Debug\net9.0\Microsoft.ML.FastTree.dll
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\bin\Debug\net9.0\Microsoft.ML.LightGbm.dll
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\bin\Debug\net9.0\runtimes\linux-x64\native\lib_lightgbm.so
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\bin\Debug\net9.0\runtimes\osx-x64\native\lib_lightgbm.dylib
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\bin\Debug\net9.0\runtimes\win-x64\native\lib_lightgbm.dll
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\bin\Debug\net9.0\runtimes\win-x64\native\lightgbm.exe
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\bin\Debug\net9.0\runtimes\linux-x64\native\libFastTreeNative.so
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\bin\Debug\net9.0\runtimes\linux-x64\native\libFastTreeNative.so.dbg
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\bin\Debug\net9.0\runtimes\osx-x64\native\libFastTreeNative.dylib
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\bin\Debug\net9.0\runtimes\osx-x64\native\libFastTreeNative.dylib.dwarf
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\bin\Debug\net9.0\runtimes\win-x64\native\FastTreeNative.dll
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\MLNetRiskPredictor\bin\Debug\net9.0\runtimes\win-x86\native\FastTreeNative.dll

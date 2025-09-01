@@ -5,7 +5,6 @@ using Microsoft.ML.Data;
 
 namespace CyberSecurityLogAnalyzer.Core
 {
-    // ML.NET için giriş verisi
     public class NetworkLogInput
     {
         [LoadColumn(0)]
@@ -39,7 +38,6 @@ namespace CyberSecurityLogAnalyzer.Core
         public float FwdPacketLengthStd { get; set; }
     }
 
-    // ML.NET tahmin çıktısı
     public class NetworkLogPrediction
     {
         [ColumnName("PredictedLabel")]
@@ -49,7 +47,6 @@ namespace CyberSecurityLogAnalyzer.Core
         public float[] Score { get; set; }
     }
 
-    // Random log üretici ve ML.NET risk skor hesaplayıcı
     public class RandomNetworkLogGenerator
     {
         private readonly MLContext mlContext;
@@ -67,7 +64,6 @@ namespace CyberSecurityLogAnalyzer.Core
 
         public GeneratedLog Generate()
         {
-            // Random parametreler
             var input = new NetworkLogInput
             {
                 DestinationPort = random.Next(1, 65535),
@@ -82,11 +78,9 @@ namespace CyberSecurityLogAnalyzer.Core
                 FwdPacketLengthStd = (float)random.NextDouble() * 500
             };
 
-            // Risk skoru tahmini
             var prediction = predEngine.Predict(input);
             float riskScore = MapLabelToScore(prediction.PredictedLabel);
 
-            // Frontend log nesnesi
             var log = new GeneratedLog
             {
                 Timestamp = DateTime.Now,
@@ -112,7 +106,6 @@ namespace CyberSecurityLogAnalyzer.Core
         }
     }
 
-    // Frontend log nesnesi
     public class GeneratedLog
     {
         public DateTime Timestamp { get; set; }

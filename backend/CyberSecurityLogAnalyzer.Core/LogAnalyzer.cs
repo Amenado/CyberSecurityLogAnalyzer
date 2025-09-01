@@ -7,7 +7,6 @@ namespace CyberSecurityLogAnalyzer.Core
     {
         public float Feature1 { get; set; }
         public float Feature2 { get; set; }
-        // ... logtan türeteceğin diğer sayısal özellikler
     }
 
     public class LogPrediction
@@ -25,7 +24,6 @@ namespace CyberSecurityLogAnalyzer.Core
         {
             _mlContext = new MLContext();
 
-            // Basit örnek: One-Class SVM veya AnomalyDetectionTrainer kullanılabilir
             var dataView = _mlContext.Data.LoadFromEnumerable(new List<LogInput>());
             var pipeline = _mlContext.Transforms.NormalizeMinMax("Feature1")
                 .Append(_mlContext.AnomalyDetection.Trainers.RandomizedPca("Feature1", rank: 2));

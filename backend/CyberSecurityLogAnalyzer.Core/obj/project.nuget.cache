@@ -1,13 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "kYlTS67jONU=",
+  "dgSpecHash": "YYzLHk4SBVs=",
   "success": true,
   "projectFilePath": "C:\\Users\\BoraErki\\Desktop\\CyberSecurityLogAnalyzer\\backend\\CyberSecurityLogAnalyzer.Core\\CyberSecurityLogAnalyzer.Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\BoraErki\\.nuget\\packages\\lightgbm\\3.3.5\\lightgbm.3.3.5.nupkg.sha512",
     "C:\\Users\\BoraErki\\.nuget\\packages\\microsoft.ml\\4.0.2\\microsoft.ml.4.0.2.nupkg.sha512",
     "C:\\Users\\BoraErki\\.nuget\\packages\\microsoft.ml.cpumath\\4.0.2\\microsoft.ml.cpumath.4.0.2.nupkg.sha512",
     "C:\\Users\\BoraErki\\.nuget\\packages\\microsoft.ml.dataview\\4.0.2\\microsoft.ml.dataview.4.0.2.nupkg.sha512",
     "C:\\Users\\BoraErki\\.nuget\\packages\\microsoft.ml.fasttree\\4.0.2\\microsoft.ml.fasttree.4.0.2.nupkg.sha512",
+    "C:\\Users\\BoraErki\\.nuget\\packages\\microsoft.ml.lightgbm\\4.0.2\\microsoft.ml.lightgbm.4.0.2.nupkg.sha512",
     "C:\\Users\\BoraErki\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\BoraErki\\.nuget\\packages\\system.codedom\\8.0.0\\system.codedom.8.0.0.nupkg.sha512",
     "C:\\Users\\BoraErki\\.nuget\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",

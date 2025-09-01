@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MLNetRiskPredictor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c48b19fb4c4144cdf033daa5aca8339259b20f0a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MLNetRiskPredictor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MLNetRiskPredictor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

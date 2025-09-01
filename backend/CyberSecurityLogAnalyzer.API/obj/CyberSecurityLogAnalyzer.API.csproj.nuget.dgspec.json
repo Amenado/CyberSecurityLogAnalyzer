@@ -240,6 +240,10 @@
             "Microsoft.ML": {
               "target": "Package",
               "version": "[4.0.2, )"
+            },
+            "Microsoft.ML.LightGbm": {
+              "target": "Package",
+              "version": "[4.0.2, )"
             }
           },
           "imports": [

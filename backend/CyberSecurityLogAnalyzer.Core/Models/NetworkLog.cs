@@ -35,6 +35,6 @@ namespace CyberSecurityLogAnalyzer.Core.Models
         public float FwdPacketLengthStd { get; set; }
 
         [LoadColumn(78)]
-        public string Label { get; set; } // BENIGN / ANOMALY
+        public string Label { get; set; }
     }
 }

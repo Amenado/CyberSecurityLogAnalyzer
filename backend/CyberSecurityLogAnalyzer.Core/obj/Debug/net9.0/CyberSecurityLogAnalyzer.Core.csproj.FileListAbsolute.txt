@@ -16,3 +16,4 @@ C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnaly
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.Core\obj\Debug\net9.0\refint\CyberSecurityLogAnalyzer.Core.dll
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.Core\obj\Debug\net9.0\CyberSecurityLogAnalyzer.Core.pdb
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.Core\obj\Debug\net9.0\ref\CyberSecurityLogAnalyzer.Core.dll
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.Core\obj\Debug\net9.0\CyberSecurityLogAnalyzer.Core.sourcelink.json

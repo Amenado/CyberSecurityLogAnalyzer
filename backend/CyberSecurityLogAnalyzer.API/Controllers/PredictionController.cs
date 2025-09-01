@@ -18,19 +18,19 @@ namespace CyberSecurityLogAnalyzer.API.Controllers
         [HttpGet("test-ddos")]
         public IActionResult TestDDoS()
         {
-            var ddosSample = new NetworkLogInput
+            // ModelInput kullanıyoruz
+            var ddosSample = new ModelInput
             {
                 DestinationPort = 80,
                 FlowDuration = 1293792,
                 TotalFwdPackets = 3,
                 TotalBackwardPackets = 7,
-                TotalLengthOfFwdPackets = 26,
-                TotalLengthOfBwdPackets = 11607,
+                TotalLengthFwdPackets = 26,
+                TotalLengthBwdPackets = 11607,
                 FwdPacketLengthMax = 20,
                 FwdPacketLengthMin = 0,
                 FwdPacketLengthMean = 8.666666667f,
                 FwdPacketLengthStd = 10.26320288f,
-                Label = "DDoS"
             };
 
             var score = _riskScoreService.PredictRiskScore(ddosSample);
