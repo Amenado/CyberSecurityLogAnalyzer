@@ -1,33 +1,48 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
-import LiveLogs from './components/LiveLogs'; 
+import LiveLogs from './components/LiveLogs';
+import LogSearch from './components/LogSearch';
+import Reports from './components/Reports';
+import Settings from './components/Settings';
+import './App.css';
 
 function App() {
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+
+  const handleLogin = () => {
+    setIsAuthenticated(true);
+  };
+
   return (
     <Router>
-      <div className="App">
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Giriş</Link>
-            </li>
-            <li>
-              <Link to="/dashboard">Dashboard</Link>
-            </li>
-            <li>
-              <Link to="/live-logs">Canlı Loglar</Link>
-            </li>
-          </ul>
-        </nav>
-        <hr />
-        <Routes>
-          <Route path="/" element={<Login />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/live-logs" element={<LiveLogs />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/login" element={<Login onLogin={handleLogin} />} />
+        {}
+        <Route 
+          path="/dashboard" 
+          element={isAuthenticated ? <Dashboard /> : <Navigate to="/login" replace />} 
+        />
+        <Route 
+          path="/live-logs" 
+          element={isAuthenticated ? <LiveLogs /> : <Navigate to="/login" replace />} 
+        />
+        <Route 
+          path="/search-logs" 
+          element={isAuthenticated ? <LogSearch /> : <Navigate to="/login" replace />}
+        />
+        <Route 
+          path="/reports" 
+          element={isAuthenticated ? <Reports /> : <Navigate to="/login" replace />} 
+        />
+        <Route 
+          path="/settings" 
+          element={isAuthenticated ? <Settings /> : <Navigate to="/login" replace />} 
+        />
+        {}
+        <Route path="/" element={<Navigate to="/login" replace />} />
+      </Routes>
     </Router>
   );
 }

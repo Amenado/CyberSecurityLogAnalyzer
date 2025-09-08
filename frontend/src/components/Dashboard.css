@@ -1,80 +1,131 @@
-/* Dashboard.css */
-
+/* Dashboard.css - Profesyonel Sürüm */
 .dashboard-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 30px;
+    display: flex;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #4b5563; /* Daha yumuşak bir siyah */
+    background-color: #f8fafc; /* Daha açık, temiz bir arka plan */
 }
 
-.dashboard-container h2 {
-  text-align: center;
-  color: #2c3e50;
-  font-size: 2.5em;
-  font-weight: 600;
-  margin-bottom: 30px;
-  border-bottom: 2px solid #e0e6e8;
-  padding-bottom: 15px;
+.main-content {
+    flex-grow: 1;
+    padding: 40px; /* Kenar boşlukları artırıldı */
+    overflow-y: auto;
 }
 
-.summary-section {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 25px;
-  margin-bottom: 40px;
+.header {
+    margin-bottom: 40px;
 }
 
-.summary-card {
-  background-color: #fff;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  font-size: 1.1em;
-  font-weight: 600;
-  color: #34495e;
-  text-align: center;
-  transition: transform 0.3s ease;
+.header h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #1f2937;
+    font-size: 2.8em;
+    font-weight: 700;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 10px;
 }
 
-.summary-card:hover {
-  transform: translateY(-5px);
+.summary-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
 }
 
-.graphs-section {
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.graphs-section h3 {
-  color: #2c3e50;
-  font-size: 1.8em;
-  margin-bottom: 20px;
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
 }
 
-.graph-placeholder {
-  height: 400px;
-  background-color: #f4f7f9;
-  border: 1px dashed #c0c0c0;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #7f8c8d;
-  font-size: 1.2em;
+.card-icon {
+    font-size: 2.8em;
+    margin-right: 25px;
+    color: #4c82f7; /* Daha canlı bir mavi */
 }
 
-/* responsive düzenlemeler */
-@media (max-width: 768px) {
-  .dashboard-container {
-    padding: 15px;
-  }
-  
-  .dashboard-container h2 {
+.card-icon.warning {
+    color: #f35b5b; /* Daha sıcak bir kırmızı */
+}
+
+.card-info h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 0 8px 0;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.card-info span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2em;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.section {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1f2937;
     font-size: 2em;
-  }
-  
-  .summary-section {
-    grid-template-columns: 1fr;
-  }
+    margin-bottom: 25px;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 12px;
+}
+
+.critical-alerts table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.critical-alerts th,
+.critical-alerts td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.critical-alerts thead {
+    background-color: #f1f5f9; /* Daha yumuşak bir başlık arka planı */
+    color: #4b5563;
+    font-weight: 600;
+}
+
+.graph-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.graph-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.graph-box h3 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #1f2937;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+    font-weight: 600;
 }

@@ -10,7 +10,7 @@ function App() {
       if (!response.ok) throw new Error("Network response was not ok");
       const data = await response.json();
 
-      setLogs(prevLogs => [data[0], ...prevLogs].slice(0, 20));
+      setLogs(prevLogs => [data[0], ...prevLogs].slice(0, 10));
     } catch (error) {
       console.error("Error fetching logs:", error);
     }

@@ -1,0 +1,164 @@
+/* Settings.css - Profesyonel Sürüm */
+.settings-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #4b5563;
+    background-color: #f8fafc;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #1f2937;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.section {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1f2937;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 12px;
+}
+
+.section h2 .svg-inline--fa {
+    margin-right: 10px;
+    color: #4c82f7;
+}
+
+.settings-form .form-group {
+    margin-bottom: 25px;
+}
+
+.settings-form label {
+    display: block;
+    font-weight: 600;
+    color: #4b5563;
+    margin-bottom: 10px;
+}
+
+.settings-form input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    font-size: 1em;
+    box-sizing: border-box;
+    background-color: #f9fafb;
+    color: #1f2937;
+    transition: all 0.3s ease;
+}
+
+.settings-form input:focus {
+    outline: none;
+    border-color: #4c82f7;
+    box-shadow: 0 0 0 3px rgba(76, 130, 247, 0.2);
+}
+
+.settings-form input:disabled {
+    background-color: #e5e7eb;
+    cursor: not-allowed;
+    color: #9ca3af;
+}
+
+.settings-form button {
+    padding: 15px 25px;
+    background-color: #4c82f7;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.settings-form button:hover {
+    background-color: #3b6cd9;
+    transform: translateY(-2px);
+}
+
+.toggle-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.toggle-group label:first-child {
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.description {
+    font-size: 0.9em;
+    color: #9ca3af;
+    margin-top: 5px;
+}
+
+/* Anahtar (Toggle Switch) Stili */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #d1d5db; /* Daha yumuşak bir gri */
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2ecc71; /* Daha canlı bir yeşil */
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}

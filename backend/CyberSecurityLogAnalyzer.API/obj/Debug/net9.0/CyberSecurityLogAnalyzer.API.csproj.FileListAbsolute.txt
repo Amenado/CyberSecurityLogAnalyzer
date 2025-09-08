@@ -53,6 +53,7 @@ C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnaly
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\Microsoft.ML.CpuMath.dll
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\Microsoft.ML.DataView.dll
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\Microsoft.ML.FastTree.dll
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\Microsoft.ML.LightGbm.dll
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\Microsoft.OpenApi.dll
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
@@ -144,6 +145,10 @@ C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnaly
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\runtimes\linux-x64\native\lib_lightgbm.so
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\runtimes\osx-x64\native\lib_lightgbm.dylib
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\runtimes\win-x64\native\lib_lightgbm.dll
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\runtimes\win-x64\native\lightgbm.exe
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
@@ -187,6 +192,7 @@ C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnaly
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\obj\Debug\net9.0\CyberSecurityLogAnalyzer.API.csproj.CoreCompileInputs.cache
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\obj\Debug\net9.0\CyberSecurityLogAnalyzer.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\obj\Debug\net9.0\CyberSecurityLogAnalyzer.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\obj\Debug\net9.0\CyberSecurityLogAnalyzer.API.sourcelink.json
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
@@ -201,9 +207,3 @@ C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnaly
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\obj\Debug\net9.0\CyberSecurityLogAnalyzer.API.pdb
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\obj\Debug\net9.0\CyberSecurityLogAnalyzer.API.genruntimeconfig.cache
 C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\obj\Debug\net9.0\ref\CyberSecurityLogAnalyzer.API.dll
-C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\obj\Debug\net9.0\CyberSecurityLogAnalyzer.API.sourcelink.json
-C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\Microsoft.ML.LightGbm.dll
-C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\runtimes\linux-x64\native\lib_lightgbm.so
-C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\runtimes\osx-x64\native\lib_lightgbm.dylib
-C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\runtimes\win-x64\native\lib_lightgbm.dll
-C:\Users\BoraErki\Desktop\CyberSecurityLogAnalyzer\backend\CyberSecurityLogAnalyzer.API\bin\Debug\net9.0\runtimes\win-x64\native\lightgbm.exe

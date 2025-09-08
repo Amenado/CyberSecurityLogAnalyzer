@@ -1,0 +1,138 @@
+/* LogSearch.css - Profesyonel Sürüm */
+.log-search-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #4b5563;
+    background-color: #f8fafc;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.header h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #1f2937;
+    font-size: 2.8em;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.header h1 .svg-inline--fa {
+    color: #4c82f7;
+    margin-right: 15px;
+}
+
+.section {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1f2937;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 12px;
+}
+
+.section h2 .svg-inline--fa {
+    margin-right: 10px;
+    color: #4c82f7;
+}
+
+.filter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    color: #4b5563;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+    background-color: #f9fafb;
+    color: #1f2937;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #4c82f7;
+    box-shadow: 0 0 0 3px rgba(76, 130, 247, 0.2);
+}
+
+.search-btn {
+    width: 100%;
+    padding: 18px;
+    background-color: #4c82f7;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.search-btn:hover {
+    background-color: #3b6cd9;
+    transform: translateY(-2px);
+}
+
+.search-btn:disabled {
+    background-color: #d1d5db;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.results-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.results-section th,
+.results-section td {
+    text-align: left;
+    padding: 18px;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 0.95em;
+    color: #4b5563;
+}
+
+.results-section th {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.results-section thead {
+    background-color: #f1f5f9;
+    color: #1f2937;
+}
+
+.loading-text, .no-results-text {
+    text-align: center;
+    color: #9ca3af;
+    font-size: 1.2em;
+    padding: 20px;
+    font-weight: 500;
+}

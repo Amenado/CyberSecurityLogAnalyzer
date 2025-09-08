@@ -1,0 +1,149 @@
+/* Reports.css - Profesyonel Sürüm */
+.reports-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #4b5563;
+    background-color: #f8fafc;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #1f2937;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.report-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+.date-filter {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.date-filter label {
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.date-filter input {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.date-filter input:focus {
+    outline: none;
+    border-color: #4c82f7;
+    box-shadow: 0 0 0 3px rgba(76, 130, 247, 0.2);
+}
+
+.report-controls button {
+    padding: 14px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.report-controls button:hover {
+    transform: translateY(-2px);
+}
+
+.date-filter button {
+    background-color: #4c82f7;
+    color: #fff;
+}
+
+.date-filter button:hover {
+    background-color: #3b6cd9;
+}
+
+.download-btn {
+    background-color: #2ecc71;
+    color: #fff;
+}
+
+.download-btn:hover {
+    background-color: #27ae60;
+}
+
+.section {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-family: 'Poppins', sans-serif;
+    color: #1f2937;
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 18px;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 0.95em;
+    color: #4b5563;
+}
+
+th {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+thead {
+    background-color: #f1f5f9;
+    color: #1f2937;
+}
+
+.graph-placeholder {
+    width: 100%;
+    height: 350px;
+}
+
+.loading-text, .no-results-text {
+    text-align: center;
+    color: #9ca3af;
+    font-size: 1.2em;
+    padding: 20px;
+    font-weight: 500;
+}
+.reports-container table th {
+    background-color: #f1f5f9; /* Arka plan rengini burada değiştirin */
+}

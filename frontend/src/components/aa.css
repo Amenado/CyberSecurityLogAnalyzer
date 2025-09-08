@@ -156,3 +156,6 @@ td.log-row-server {
   .log-row td:nth-of-type(6)::before { content: "Risk Score"; }
   .log-row td:nth-of-type(7)::before { content: "Server"; }
 }
+.App table th {
+    background-color: #f1f5f9; /* Arka plan rengini burada değiştirin */
+}

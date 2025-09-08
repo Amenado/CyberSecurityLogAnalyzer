@@ -12,6 +12,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<RiskScoreService>();
 builder.Services.AddSingleton<RiskPredictionService>();
 
+builder.Services.Configure<AdminSettings>(builder.Configuration.GetSection("AdminSettings"));
+
+
 
 builder.Services.AddDbContext<LogDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
